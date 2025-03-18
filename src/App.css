@@ -1,0 +1,31 @@
+.app-container {
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+  }
+  
+  .cat-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 1rem;
+  }
+  
+  .cat-button:disabled {
+    background: #a0aec0;
+    cursor: not-allowed;
+  }
+  
+  .cat-image {
+    margin-top: 2rem;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    max-height: 70vh;
+  }
